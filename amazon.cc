@@ -57,8 +57,7 @@ int main(){
       if(a == b-1){
         int mn = INF;
         
-        for(int prevb = 0; prevb < a; prevb++){
-          if(prevb == 1) continue;
+        for(int prevb = 1; prevb < a; prevb++){
           mn = min(mn, dp[a][prevb] + dist(x[b], y[b], x[prevb], y[prevb]));
         }
         
