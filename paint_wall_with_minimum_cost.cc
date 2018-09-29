@@ -1,3 +1,5 @@
+#define INF INT_MAX
+
 // Helper function for update_min_and_second_min()
 void update_min_and_second_min(int x, int &min1, int &min2){
   if(x <= min1){
