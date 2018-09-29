@@ -11,7 +11,7 @@ void update_min_and_second_min(int x, int &min1, int &min2){
 }
 
 // Computes the minimum and second minimum values in a vector.
-void update_min_and_second_min(vector<int> &v, int &min1, int &min2){
+void update_min_and_second_min(const vector<int> &v, int &min1, int &min2){
   for(int x : v) update_min_and_second_min(x, min1, min2);
   return
 }
