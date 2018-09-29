@@ -19,7 +19,7 @@ void update_min_and_second_min(vector<int> &v, int &min1, int &min2){
 // Computes the minimum cost to paint a wall such that no two adjacent
 // slabs of the wall are assigned the same color. Works in
 // O(num_slabs * num_colors) time and uses O(num_colors) memory.
-int paint_wall_with_min_cost(const vector<vector<int>> costs) {
+int paint_wall_with_min_cost(const vector<vector<int>> &costs) {
   // Input validation.
   int num_slabs = costs.size();
   if(num_slabs == 0){
