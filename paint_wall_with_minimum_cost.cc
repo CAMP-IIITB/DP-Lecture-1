@@ -1,3 +1,10 @@
+// You are given a wall consisting of N slabs and C colors.
+// The cost to color the i-th slab with the j-th color for all
+// valid i and j is denoted by the entry M_ij in matrix M. Find
+// the minimum cost to paint the wall such that no two adjacent
+// slabs are assigned the same color.
+
+
 #define INF INT_MAX
 
 // Helper function for update_min_and_second_min()
@@ -46,7 +53,7 @@ int paint_wall_with_min_cost(const vector<vector<int>> &costs) {
   int min1 = INF, min2 = INF;
   update_min_and_second_min(dp[0], min1, min2);
   
-  // Compute the transitions for each slab from 1 to num_slabs-1
+  // Compute the transitions for each slab from 1 to num_slabs-1.
   for(int i = 1; i < num_slabs; i++){
     // Apply the reccurrence relation.
     for(int j = 0; j < num_colors; j++){
