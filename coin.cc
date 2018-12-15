@@ -1,3 +1,7 @@
+// Given an infinite number of coins of denominations
+// coins[0], coins[1], ..., coins[n-1], can you combine
+// these coins to form an amount of "amount" coins?
+
 #include <cstdio>
 
 using namespace std;
