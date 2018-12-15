@@ -1,3 +1,5 @@
+// Computes the n-th Fibonacci number.
+
 #include <cstdio>
 
 using namespace std;
