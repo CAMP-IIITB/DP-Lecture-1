@@ -1,3 +1,6 @@
+// Refer problem /www.codechef.com/problems/DOBDELIV for the
+// problem statement.
+
 #include <cstdio>
 #include <cmath>
 #include <algorithm>
