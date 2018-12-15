@@ -2,4 +2,4 @@
 
 Code for the solutions to the problems discussed in the introductory lecture on Dynamic Programming.
 
-Will add the problem statements to the README soon
+Brief problem statements are available at the top of each file.
