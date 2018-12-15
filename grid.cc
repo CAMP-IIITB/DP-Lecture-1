@@ -1,3 +1,12 @@
+// You are given an n x n grid. Each grid contains some number of coins.
+// You are initially located at co-ordinate (0,0), i.e., the top left corner
+// of the grid and want to reach the co-ordinate (n-1, n-1), i.e. the bottom
+// right corner of the grid. Each time you visit a cell in this grid, you must
+// collect all the coins present in that cell. You would like to reach your
+// destination and maximize the number of coins collected under the constraint
+// that from cell (i,j) you can only move to cells (i+1,j) or (i,j+1). 
+// Calculate the maximum number of coins that you can collect.
+
 #include <cstdio>
 
 using namespace std;
